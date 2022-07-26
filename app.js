@@ -1,3 +1,5 @@
-function App {
-    console.log("Hello");
+function App() {
+    console.log("Welcome to Bootcamp!");
 }
+
+App();
