@@ -1,3 +1,1 @@
-function App {
-    console.log("Hello");
-}
+console.log("Hello");
