@@ -14,18 +14,18 @@ h1 {
 
 .first-div {
     width: 500px;
-    border: 3px dotted yellowgreen;
-    width: 400px;
+    border: 3px dotted Tomato;
     padding: 10px;
-    padding: 5%;
     background-color: beige;
-    margin: 5%;
+    margin: 5% 10% 5% 30%;
     text-align: center;
+    color: red;
+    font-family:  'Gill Sans MT';
 }
 
 #para {
     background-color: rgb(207, 191, 223);
-    font-family: inherit;
+    font-family: 'Gill Sans MT';
     border: 3px dashed blue;
     padding: 5%;
     margin: 5%;
@@ -41,4 +41,7 @@ h1 {
     padding: 5%;
     text-align: center;
     background-color: SlateBlue;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 70%;
 }
