@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    border: 1px solid #cccc;
+    width: 100%;
+    height: 100%;
+}
+
+.element-1 {
+    border: 1px dotted red;
+    background-image: url("https://static.remove.bg/remove-bg-web/5c20d2ecc9ddb1b6c85540a333ec65e2c616dbbd/assets/start_remove-c851bdf8d3127a24e2d137a55b1b427378cd17385b01aec6e59d5d4b5f39d2ec.png");
+    text-align: center;
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.element-2 {
+    border: 1px dashed purple;
+    background-color: #2d2d2d;
+    text-align: center;
+    color: aqua;
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
