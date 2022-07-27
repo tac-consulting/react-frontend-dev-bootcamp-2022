@@ -1,0 +1,36 @@
+.body{
+    
+    margin:10px;
+    border:solid;
+    background: antiquewhite;
+}
+.new-class{
+    margin:10%;
+    padding:10px;
+    border:dotted;
+    color:blue;
+    background-image: url(https://i.pinimg.com/originals/9c/b0/70/9cb070d62dc738a0c3a1a408d68e4af5.jpg);
+    height:200;
+    width:200;
+    font-family:Georgia;
+}
+
+
+#txtid{
+    margin:10%;
+    border:dashed;
+    color:green;
+    background:yellowgreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height:200;
+    width:200;
+}
+.e1{
+margin:10px 20px 20px 10px;
+border:1px solid black;
+padding:10% 20% 20% 10%;
+}
+
+.e2{
+
+}
