@@ -1,0 +1,25 @@
+/* body{
+background-color: red;
+broder
+
+}
+.title{
+    
+    
+
+} */
+.image{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+     height: 50px;
+     width: 50px;
+
+}
+.container{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  
+}
