@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    border:solid;
+    
+}
+.style{
+    color: antiquewhite;
+    font-size: small;
+}
+#text{
+    color:blue;
+    border:dotted;
+    padding: 10%;
+    margin: 10px;
+}
+h1{
+    color:blueviolet;
+    border:dashed;
+    background-image: url(https://static.remove.bg/remove-bg-web/5c20d2ecc9ddb1b6c85540a333ec65e2c616dbbd/assets/start_remove-c851bdf8d3127a24e2d137a55b1b427378cd17385b01aec6e59d5d4b5f39d2ec.png);
+    width: 500x;
+    height: 260px;
+    margin-bottom: 10px;
+}
+
