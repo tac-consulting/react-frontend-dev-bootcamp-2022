@@ -1,7 +1,7 @@
 body {
-    margin: 5%;
     border: solid 2px rebeccapurple;
     background-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg");
+    height: 100%;
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
     color: orchid;
     padding: 5%;
     font-family: "Trirong", serif;
-
+    text-align: center;
 }
 
 .first-div {
@@ -20,6 +20,7 @@ h1 {
     padding: 5%;
     background-color: beige;
     margin: 5%;
+    text-align: center;
 }
 
 #para {
@@ -28,4 +29,16 @@ h1 {
     border: 3px dashed blue;
     padding: 5%;
     margin: 5%;
+}
+
+.border {
+    border-top: 5px solid palegreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: cadetblue;
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    padding: 5%;
+    text-align: center;
+    background-color: SlateBlue;
 }
