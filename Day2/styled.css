@@ -1,3 +1,6 @@
+.main{
+    overflow:auto;
+}
 .card1{
     
     background-color:rgb(233, 63, 71);
@@ -24,15 +27,16 @@
     flex-direction:row;
     justify-content:space-evenly;
     align-items:stretch;
-    margin-top: 15px;
+    margin-top: 20px;
     font-family:Verdana;
     text-align: center;
+    margin-bottom:30px;
 }
 .card21{
     flex:33%;
     box-shadow: 0 0 5px #bebebe;
     padding:3.3%;
-    font-size:20px;
+    font-size:15px;
     color:#1c1c1c;
     justify-content: center;
     margin-right: 10px;
@@ -41,7 +45,7 @@
     flex:33%;
     box-shadow: 0 0 5px #bebebe;
     padding:3.3%;
-    font-size:20px;
+    font-size:15px;
     margin-right: 10px;
     
 }
@@ -49,30 +53,41 @@
     flex:33%;
     box-shadow: 0 0 5px  #bebebe;
     padding:3.3%;
-    font-size:20px;
+    font-size:15px;
     
 }
 .card3{
     display:flex;
+    flex:1;
     flex-direction:row;
-    justify-content: center;
-    text-align: center;
+   margin: 20px;
+   color:white;
+   
 }
-#c31{
+.c31{
     background-color: red;
+    padding:1% 12% 1% 2%;
+    
+  
 }
-#c32{
+.c32{
     background-color:blue;
+    padding:1% 12% 1% 2%;
 }
-#c33{
+.c33{
     background-color:grey;
+    padding:1% 12% 1% 2%;
 }
-#c34{
+.c34{
     background-color:teal;
+    padding:1% 12% 1% 2%;
 }
-#c35{
+.c35{
     background-color:yellow;
+    padding:1% 12% 1% 2%;
 }
-#c36{
+
+.c36{
     background-color:orange;
+    padding:1% 12% 1% 2%;
 }
