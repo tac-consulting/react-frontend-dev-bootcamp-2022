@@ -1,0 +1,31 @@
+body {
+    margin: 5%;
+    border: solid 2px rebeccapurple;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg");
+}
+
+h1 {
+    font-size: x-large;
+    color: orchid;
+    padding: 5%;
+    font-family: "Trirong", serif;
+
+}
+
+.first-div {
+    width: 500px;
+    border: 3px dotted yellowgreen;
+    width: 400px;
+    padding: 10px;
+    padding: 5%;
+    background-color: beige;
+    margin: 5%;
+}
+
+#para {
+    background-color: rgb(207, 191, 223);
+    font-family: inherit;
+    border: 3px dashed blue;
+    padding: 5%;
+    margin: 5%;
+}
