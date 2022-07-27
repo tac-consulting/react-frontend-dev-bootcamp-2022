@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+    border:5px solid #000;
+}
+.section-red{
+   height:350px;
+    border: 2px dotted #ccc;
+    margin: 20px;
+    color: red;
+    padding: 5px;
+    background-image: url("https://lh3.ggpht.com/xdAvJ8t2xGTTCX66KcG699ad5iJU1GE7RWISkrfImlx6EpxT_mozezHtEdAR=s1200");
+}
+#section-grn{
+    background: green;
+    border: 3px dashed #fff;
+    height:350px;
+    padding: 20px;
+    margin: 10px;
+    width:500px;
+}
+#para{
+    color:rgb(255, 165, 0);
+}
