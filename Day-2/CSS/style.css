@@ -1,5 +1,5 @@
 body {
-    border: solid 2px rebeccapurple;
+    border: double 10px rebeccapurple;
     background-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg");
     height: 100%;
 }
@@ -20,7 +20,7 @@ h1 {
     margin: 5% 10% 5% 30%;
     text-align: center;
     color: red;
-    font-family:  'Gill Sans MT';
+    font-family: 'Gill Sans MT';
 }
 
 #para {
@@ -45,3 +45,27 @@ h1 {
     margin-right: 10%;
     width: 70%;
 }
+
+.relative-position {
+    position: relative;
+    /* background-image: url("https://cdn.pixabay.com/photo/2021/01/26/12/29/mountain-5951302_960_720.jpg"); */
+
+    margin: 5% 20%;
+}
+
+img {
+    border-radius: 15px;
+    height: 50%;
+    width: 90%;
+}
+
+.absolute {
+    position: absolute;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    margin-left: 65%;
+}
+
+
