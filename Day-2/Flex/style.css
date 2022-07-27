@@ -1,0 +1,22 @@
+body {
+    font-family: 'Georgia';
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    /* width: 500px; */
+    background-color: lightseagreen;
+    border: 2px solid tomato;
+}
+
+.list {
+    font-family: 'Gill Sans MT';
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: darkblue;
+}
