@@ -1,0 +1,39 @@
+body {
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    margin: 2;
+    top: 0;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #014351;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid #3A8494;
+}
+
+.parent>h1 {
+    margin-left: 3%;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+.wrapper {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 100px;
+    border: 2px solid #A5A5A5;
+    background-color: #2292A6;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: bold;
+}
