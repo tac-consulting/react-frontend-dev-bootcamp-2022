@@ -4,6 +4,7 @@ body{
 }
 .section-red{
    height:350px;
+   width:500px;
     border: 2px dotted #ccc;
     margin: 20px;
     color: red;
@@ -13,11 +14,30 @@ body{
 #section-grn{
     background: green;
     border: 3px dashed #fff;
-    height:350px;
     padding: 20px;
-    margin: 10px;
-    width:500px;
+    margin: 20px;
+    /* position: relative; */
+    align-items: flex-end;
+    
+    /* align-content: baseline; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-grow:2 ;
+    flex-shrink: 5;
 }
+#section-grn img{
+    width:300px;
+    height: 300px;
+}
+
 #para{
     color:rgb(255, 165, 0);
+    border:2px solid #000;
+    padding:5px 25px 15px;
+    font: 1em sans-serif;
+    font-weight: 800;
+    /* position: absolute; */
+    /* top:0; */
 }
