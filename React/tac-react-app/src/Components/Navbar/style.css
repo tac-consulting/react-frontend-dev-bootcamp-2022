@@ -1,0 +1,45 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.company-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    gap: 2%;
+    margin-left: 2%;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+}
+
+.company-logo>h1 {
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 20%;
+    margin-right: 2%;
+}
+
+button {
+    width: 140px;
+    height: 45px;
+    border-radius: 100px;
+}
+
+.btn-wrapper>button:hover {
+    background-color: #0078D7;
+    border: 2px solid #0078D7;
+}
