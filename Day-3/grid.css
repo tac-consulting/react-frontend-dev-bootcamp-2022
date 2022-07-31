@@ -1,0 +1,79 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.grid-container {
+    display: grid;
+    background-color: #fff;
+    padding: 10px;
+    grid-template-columns:auto auto auto;
+    grid-template-areas: 
+    ". one two"
+    "three four five"
+    "six seven eight"
+    "nine ten .";
+    justify-items: center;
+    background-color: lightblue;
+    gap: 10px;
+  }
+
+  .grid-item {
+    border: 1px solid red;
+    height: 100px;
+    display: flex;
+    /* width: 20px; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .grid-item1 {
+    grid-area: one;
+  }
+
+
+  .grid-item2 {
+    grid-area: two;
+  }
+
+
+  .grid-item3 {
+    grid-area: three;
+  }
+
+
+  .grid-item4 {
+    grid-area: four;
+  }
+
+
+  .grid-item5 {
+    grid-area: five;
+  }
+
+
+  .grid-item6 {
+    grid-area: six;
+  }
+
+
+  .grid-item7 {
+    grid-area: seven;
+  }
+
+
+  .grid-item8 {
+    grid-area: eight;
+  }
+
+
+  .grid-item9 {
+    grid-area: nine;
+  }
+
+
+  .grid-item10 {
+    grid-area: ten;
+  }
+
