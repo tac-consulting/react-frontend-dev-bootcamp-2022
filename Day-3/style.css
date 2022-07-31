@@ -20,5 +20,6 @@ text-align: center;
 }
 button:hover{
     background: rgb(195, 10, 133);
-    color:#fff;
+    color:#ccc;
+    cursor: pointer;
 }
