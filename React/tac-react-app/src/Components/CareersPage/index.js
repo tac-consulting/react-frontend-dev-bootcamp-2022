@@ -1,9 +1,11 @@
 import React from "react";
 
-const CareersPage = () => {
+
+const CareersPage = (props) => {
     return(
+        <>
         <h1>CareersPage</h1>
+        </>
     );
 }
-
 export default CareersPage;
